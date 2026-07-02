@@ -16,12 +16,14 @@
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js
-- Tailwind CSS
+- Mobile Development
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material Design 3
 
 ### Backend
-- Node.js
-- Express.js
+- AWS
 
 ### AI & Cloud Services
 - Amazon Transcribe
@@ -30,31 +32,32 @@
 - AWS S3
 - AWS Lambda *(if applicable)*
 
-## 📂 Project Structure
-
-```
+📂 Project Structure
 PolyTone/
-├── client/
+│
+├── app/
 │   ├── src/
-│   ├── public/
-│   └── package.json
+│   │   ├── main/
+│   │   ├── java/
+│   │   ├── res/
+│   │   └── AndroidManifest.xml
+│   │
+│   ├── build.gradle
+│   └── proguard-rules.pro
 │
-├── server/
-│   ├── routes/
-│   ├── controllers/
-│   ├── services/
-│   └── package.json
-│
-├── README.md
-└── .gitignore
-```
+├── gradle/
+├── build.gradle
+├── settings.gradle
+└── README.md
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or above)
-- npm
+- Android Studio (Latest Stable Version)
+- Android SDK
+- Kotlin
+- A physical Android device or Android Emulator
 - AWS Account
 - AWS CLI configured (optional)
 
@@ -67,46 +70,6 @@ git clone https://github.com/yourusername/polytone.git
 cd polytone
 ```
 
-Install frontend dependencies:
-
-```bash
-cd client
-npm install
-```
-
-Install backend dependencies:
-
-```bash
-cd ../server
-npm install
-```
-
-Create a `.env` file in the server directory and add your AWS credentials and configuration:
-
-```env
-AWS_ACCESS_KEY_ID=YOUR_KEY
-AWS_SECRET_ACCESS_KEY=YOUR_SECRET
-AWS_REGION=YOUR_REGION
-PORT=5000
-```
-
-## ▶️ Running the Application
-
-Start the backend:
-
-```bash
-cd server
-npm start
-```
-
-Start the frontend:
-
-```bash
-cd client
-npm run dev
-```
-
-The application should now be running locally.
 
 ## 📸 Screenshots
 
@@ -130,7 +93,6 @@ Add screenshots or GIFs here.
 - More language support
 - Voice cloning
 - Conversation history
-- Mobile application
 - Live meeting integration
 - Speaker identification
 
